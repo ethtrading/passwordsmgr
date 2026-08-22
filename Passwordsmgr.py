@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-Passwordsmgr - cross-platform (Linux / macOS) password keeper.
+Passwordsmgr - cross-platform (Linux / macOS / Windows) password keeper.
 
 Data lives in vault.json next to this script. Every password is encrypted
 with Fernet (AES-128-CBC + HMAC-SHA256); the key is derived from the master

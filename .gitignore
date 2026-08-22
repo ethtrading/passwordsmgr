@@ -1,0 +1,15 @@
+# Secrets — never commit the encrypted vault
+vault.json
+
+# Virtual environment
+venv/
+
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# OS noise
+.DS_Store
+Thumbs.db
